@@ -1,18 +1,20 @@
-这是一个demo，创建了向量数据库，让AI能根据自定义创建的库来索引回答问题"# 教育人工智能"
+这是一个demo# 教育人工智能"
 
 > 基于 DeepSeek 大模型 + 智能检索的职业教育课程咨询机器人  
 > **零向量数据库，关键词匹配，轻量级快速部署**
 
 ---
 
-## ✨ 项目亮点
+
+##✨ 项目亮点
 
 - 🧠 **大模型驱动**：使用 DeepSeek 大语言模型理解用户问题，生成自然、专业的回答。
 - 🔍 **智能检索**：采用关键词匹配算法，从课程库中快速定位最相关的课程信息。
 - 🚀 **轻量级**：无需安装向量数据库或 Embedding 模型，依赖简单，运行成本极低。
-- 💬 **友好交互**：基于 Streamlit 构建聊天界面，支持对话历史，开箱即用。
+- 💬 **友好交互** **：基于 Streamlit 构建聊天界面，支持对话历史，开箱即用。
 
 ---
+
 
 ## 📚 功能简介
 
@@ -22,7 +24,8 @@
 
 ---
 
-## 🛠️ 技术栈
+
+##🛠️ 技术栈
 
 | 类别       | 技术                              |
 | ---------- | --------------------------------- |
@@ -33,34 +36,35 @@
 
 ---
 
+
 ## 📦 安装与运行
 
 ### 1. 克隆仓库
 
 ```bash
 git clone https://github.com/Myth-wangyun/edu-ai.git
-cd edu-ai
+cd 教育人工智能
 2. 创建虚拟环境（推荐）
-bash
+巴什
 python -m venv venv
-# Windows
-venv\Scripts\activate
+# 窗户
+venv\Scripts\激活
 # Mac/Linux
-source venv/bin/activate
+源 venv/bin/activate
 3. 安装依赖
-bash
+巴什
 pip install -r requirements.txt
 4. 配置 API Key
 本项目使用 DeepSeek 大模型，你需要先在 DeepSeek 开放平台 注册并获取 API Key。
 
 在项目根目录创建 .env 文件，填入：
 
-env
+环境
 DEEPSEEK_API_KEY=你的API密钥
 ⚠️ 请勿将 .env 文件提交到 GitHub（已加入 .gitignore）。
 
 5. 启动应用
-bash
+巴什
 streamlit run app.py
 浏览器会自动打开 http://localhost:8501，开始咨询吧！
 
